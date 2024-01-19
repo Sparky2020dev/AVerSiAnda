@@ -6,7 +6,7 @@ function Login() {
 	var userForm=document.getElementById("user").value;
 	var passForm=document.getElementById("pass").value;
 	if ((userForm==userData)&&(passForm==passwordData)){
-        window.location = 'index.html?username=' + userForm;
+        window.location = 'home.html?username=' + userForm;
 
 
 	}
