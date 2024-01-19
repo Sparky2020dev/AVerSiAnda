@@ -5,9 +5,14 @@
 function Login() {
 	var userForm=document.getElementById("user").value;
 	var passForm=document.getElementById("pass").value;
+	var userAdminForm=document.getElementById("pass").value;
 	if ((userForm==userData)&&(passForm==passwordData)){
-        window.location = 'home.html?username=' + userForm;
-
+		if(userAdminForm=userData){
+		window.location = 'Admin.html?username=' + userForm;	
+		}	
+		else{
+		window.location = 'home.html?username=' + userForm;
+		}
 
 	}
 	else{
