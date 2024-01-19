@@ -11,7 +11,6 @@ function Login() {
 
 	}
 	else{
-		console.log("MAL");
 		document.getElementById("feedError").textContent="Error: Incorrect user or password";
 		document.getElementById("divError").style.display = "block";
 	}
