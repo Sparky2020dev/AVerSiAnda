@@ -7,7 +7,7 @@ function Login() {
 	var passForm=document.getElementById("pass").value;
 	var userAdminForm=document.getElementById("pass").value;
 	if ((userForm==userData)&&(passForm==passwordData)){
-		if(userAdminForm=userData){
+		if(userAdminForm==userData){
 		window.location = 'Admin.html?username=' + userForm;	
 		}	
 		else{
