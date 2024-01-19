@@ -10,7 +10,7 @@ function Login() {
 		window.location = 'Admin.html?username=' + userForm;	
 		}	
 		else{
-		window.location = 'home.html?username=' + userForm;
+		window.location = 'Home.html?username=' + userForm;
 		}
 
 	}
