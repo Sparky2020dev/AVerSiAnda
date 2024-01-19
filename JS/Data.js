@@ -4,3 +4,5 @@
 
 var userData='UNO';
 var passwordData='UNOPass';
+
+var userAdmin='Admin';
